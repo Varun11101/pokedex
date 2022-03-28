@@ -1,0 +1,78 @@
+.body-container {
+  color: white;
+  background-color: #3A3845;
+  font-family: 'Roboto Mono', monospace;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.footer {
+  background-color: orangered;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 15px;
+}
+
+h1 {
+  color: white;
+}
+
+.pokemon_tab {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  /* padding-left: 40px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: orangered;
+  color: white;
+}
+
+.pokemon_tab:hover{
+  animation: bounce 0.5s linear;
+}
+
+@keyframes bounce {
+  20% {
+    transform: translateY(-10px);
+  }
+
+  40% {
+    transform: translateY(0px);
+  }
+
+  60%{
+    transform: translateY(-4px);
+  }
+  80%{
+    transform: translateY(0px);
+  }
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.move_text {
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.moves_style {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.faicon {
+  height: 20px;
+  width: 20px;
+}
